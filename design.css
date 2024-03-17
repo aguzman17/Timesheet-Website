@@ -1,0 +1,258 @@
+/* --------------------------------- Header --------------------------------- */
+
+/* --------------------------------- Font ----------------------------------- */
+
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
+
+/* ------------------------------- Global ----------------------------------- */
+
+*{
+    font-family: "EB Garamond", serif;
+    margin: 0 ;
+    padding: 0 ;
+    box-sizing: border-box ;
+}
+/* -------------------------- Parameters Of All Body ------------------------ */
+
+body{
+
+  background: #403d3d;
+}
+
+/* ------------------------ Parameters Of NavBar ---------------------------- */
+
+.NavBar{
+    padding: 15px 3%;
+    display: flex ;
+    justify-content: space-between ;
+    align-items: center ;
+    background: #2f2a60 ;
+    /*border-bottom: 1px solid black ;*/
+}
+s
+/* -------------------------- Parameters Of Logo.Jpg ------------------------ */
+
+.Logo{
+
+    width: 60px ;
+    border-radius: 40% ;
+    cursor: pointer ;
+}
+
+
+/* ------------------------ Parameters Of .NavLinks ------------------------- */
+.NavLinks a{
+
+
+    font-weight: 500 ;
+    font-size: 16px ;
+    color: white ;
+    text-decoration: none ;
+}
+
+/* ------------------------- Parameters Of NavLinks ------------------------- */
+
+.NavLinks{
+
+    list-style: none ;
+}
+
+/* --------------------------- Dimensions Of li ----------------------------- */
+
+.NavLinks li{
+
+    display: inline-block ;
+    padding: 0 20px ;
+}
+
+/* ----------------------------- Parameters Of li a ------------------------- */
+
+.NavLinks li a{
+
+    transition: all 0.3s ease 0s ;
+}
+
+/* ------------------------------ Animations Of a --------------------------- */
+
+.NavLinks li a:hover{
+
+    color: black ;
+}
+
+/* --------------------------- Dimensions Of Button ------------------------- */
+.B a{
+
+    padding: 9px 25px ;
+    background-color: #222222 ;
+    border: none ;
+    border-radius: 50px ;
+    cursor: pointer ;
+    transition: all 0.3s ease 0s ;
+    text-decoration: none ;
+    color: white ;
+    font-size: 16px ;
+
+}
+
+/* ------------------------- Animation Of Button ---------------------------- */
+
+.B a:hover{
+
+    background-color: #262626 ;
+    border: 2px solid white ;
+    color: white ;
+}
+
+/* --------------------------------- Footer --------------------------------- */
+
+/* ------------------------- MoreContent Parameters ------------------------- */
+
+.MoreContent{
+
+    margin: 0 ;
+    padding: 0 ;
+    display: block ;
+    position: flex ;
+}
+
+/* ----------------------- Dimensions of ContactCard ------------------------ */
+
+.ContactInfo{
+
+    width: 100% ;
+    padding: 20px 0 0 ;
+    position: relative ;
+    display: flex ;
+    justify-content: center ;
+    background: #2f2a60 ;
+}
+
+/* --------------------------------- Card ----------------------------------- */
+
+.Card{
+    width: 250px ;
+    height: 130px ;
+    display: flex ;
+    flex-direction: column ;
+    justify-content: center ;
+    align-items: center ;
+    padding: 0 20px ;
+    margin: 0 20px ;
+    background: #2f2a60 ;
+    color: #2f2a60 ;
+    border: 2px solid #afd4fd ;
+    border-radius: 35px ;
+    cursor: pointer ;
+    z-index: 1000 ;
+}
+
+/* ----------------------------- Icon Of Card ------------------------------- */
+
+.CardIcon{
+
+    width: 60px ;
+    height: 60px ;
+    text-align: center ;
+    line-height: 60px !important ;
+    border: 2px solid #2f2a60;
+    border-radius: 50% ;
+    font-size: 30px ;
+    background: #afd4fd ;
+    transition: 0.5s linear ;
+}
+
+/* ------------------------------- InformationTex --------------------------- */
+
+.Card p{
+
+    margin-top: 10px ;
+    font-weight: 300 ;
+    letter-spacing: 1px ;
+    max-height: 0 ;
+    opacity: 0 ;
+    transition: 0.3 linear ;
+    color: #afd4fd ;
+}
+/* ------------------------- Animation InformationTex ----------------------- */
+
+.Card:hover p{
+
+    max-height: 40px ;
+    opacity: 1 ;
+}
+/* -------------------------------- Footer ---------------------------------- */
+
+.MidSM{
+
+    display: block ;
+    top: 0 ;
+    text-align: center ;
+    background: #2f2a60 ;
+    background-size: cover ;
+    opacity: 100 ;
+    user-select: none ;
+}
+
+/* ------------------------------ h1 In Footer ------------------------------ */
+
+.MidSM .ContactUs{
+
+    padding: 5px ;
+    color: 	#afd4fd ;
+    background: #2f2a60 ;
+}
+
+/* ------------------------- More Content Parameters ------------------------ */
+
+.MoreContent{
+
+    width: 100% ;
+    height: 500px ;
+    background-color: #2f2a60 ;
+}
+
+
+/* ------------------------ Parameters _ In More Content -------------------- */
+
+.MoreContent h1{
+
+    position: absolute ;
+    color: #afd4fd ;
+    font-family: 'Odibee Sans', cursive ;
+    z-index: 1000 ;
+}
+
+/* -------------------------------- Buttons --------------------------------- */
+
+.Button{
+
+    display: inline-block ;
+    width: 90px ;
+    height: 90px ;
+    background: #2f2a60 ;
+    margin: 10px ;
+    border: 2px solid #afd4fd ;
+    border-radius: 30% ;
+    box-shadow: 0 5px 15px -5px #00000070 ;
+    color: #afd4fd ;
+    overflow: hidden ;
+    position: relative ;
+    cursor: pointer ;
+    z-index: 1000 ;
+}
+
+.Button:hover{
+
+    border: 2px solid #2f2a60 ;
+
+}
+/* ---------------------------------- Icon ---------------------------------- */
+
+.Button i{
+
+    line-height: 90px ;
+    font-size: 20px ;
+    transition: 0.2s linear ;
+}
+
+/* -------------------------------- Timesheet ------------------------------- */
